@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuración general del body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor centrado */
+.container {
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 8px 8px 8px; 
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+
+/* Estilos de la card */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;  
+    margin: 20px 15px auto;
+    transition: transform 0.3s ease;
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Imagen de la card */
+.card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Contenido de la card */
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título de la card */
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Descripción de la card */
+.card-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Botón de la card */
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 600px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        max-width: 60%;
+        margin: 10px;
+        
+        
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-description {
+        font-size: 0.9rem;
+    }
+
+    .card-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
