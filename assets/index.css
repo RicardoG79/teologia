@@ -98,7 +98,9 @@ main{
     }
     .card {
         max-width: 60%;
-        margin: 10px;
+        height: 100px;
+        margin: 8px;
+        padding: 5px
         
         
     }

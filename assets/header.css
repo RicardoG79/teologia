@@ -9,6 +9,11 @@
 
 .title {
     margin-bottom: 1rem;
+    font-family: 'Amaranth', sans-serif;
+    color: #000;
+}
+.title:hover{
+    color: #0288D1;
 }
 
 .dropdown {
@@ -23,6 +28,8 @@
     cursor: pointer;
     font-size: 1rem;
     text-decoration: underline;
+    font-family: 'Aclonica', sans-serif;
+    font-style: italic;
 }
 
 .indicator {
@@ -62,6 +69,7 @@
 
 .footer-text {
     margin-top: 1rem;
+    font-family: 'Architects Daughter', handwriting;
 }
 
 @media (max-width: 600px) {
