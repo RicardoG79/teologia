@@ -98,12 +98,10 @@ main{
     }
     .card {
         max-width: 60%;
-        height: 100px;
+        max-height: 20%;
         margin: 8px;
-        padding: 5px
-        
-        
-    }
+        padding: 5px;
+            }
 
     .card-title {
         font-size: 1.2rem;

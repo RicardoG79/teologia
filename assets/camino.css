@@ -1,0 +1,16 @@
+.d-block{
+    max-width: 400px;
+    max-height: 400px;
+    min-height: 400px;
+    align-items: center;
+    border-radius: 4%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 1rem;
+}
+.carousel-control-prev-icon {
+    background-color: black;}
+
+.carousel-control-next-icon {
+    background-color:  black;
+}
