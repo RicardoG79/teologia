@@ -8,6 +8,7 @@
 }
 
 .title {
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     font-family: 'Amaranth', sans-serif;
     color: #000;
@@ -71,6 +72,9 @@
     margin-top: 1rem;
     font-family: 'Architects Daughter', handwriting;
 }
+.footer-text:hover {
+    color: #0288D1;
+}
 
 @media (max-width: 600px) {
     .navbar {
@@ -82,5 +86,8 @@
     }
     .dropdown-content {
         min-width: 120px;
+    }
+    .title {
+        font-size: 1.75rem;
     }
 }
